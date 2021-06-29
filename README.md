@@ -32,5 +32,3 @@ We recommend setting up the main script as a `cronjob`. For example, a cronjob f
 - How to create the telegram bot? [Answer](https://core.telegram.org/bots#6-botfather)
 - How to add get the `chat_id` from a participant? [Answer](https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android)
 - How do I make the bot send messages to my Slack channel? [Answer](https://api.slack.com/start/overview)
-
-For more information, please visit the wiki of this repo.
