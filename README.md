@@ -28,6 +28,14 @@ We recommend setting up the main script as a `cronjob`. For example, a cronjob f
 0 18 * * * cd ~/telegram-bot/ && python telegram_bot.py
 ```
 
+## Commands
+The participant is allowed to type the following commands to the bot (not case sensitive):
+- `/start`: Starts the conversation with the Bot.
+- `help`: Returns a list of all available commands the bot recognises.
+- `last vote`: Returns the date and time of the last Cozie response.
+
+More commands can be added or the messages for the existing ones modified in the `read_user_msg` function on the `telegram_bot.py` file.
+
 ## FAQ
 - How to create the telegram bot? [Answer](https://core.telegram.org/bots#6-botfather)
 - How to add get the `chat_id` from a participant? [Answer](https://www.wikihow.com/Know-Chat-ID-on-Telegram-on-Android)
